@@ -68,7 +68,7 @@ Save the `input.csv` file in the same folder as `prediction.py`.
 3. Run the prediction script:
 
 ```bash
-python prediction.py
+python prediction_script.py
 ```
 
 ---
