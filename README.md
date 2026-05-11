@@ -35,11 +35,11 @@ pip install numpy pandas rdkit scikit-learn keras torch torch-geometric pillow
 ```text
 project_folder/
 │
-├── prediction.py
-├── training_advanced.py
-├── Smiles_to_graph.py
+├── prediction_script.py
 ├── gnn_model.pt
 ├── input.csv
+├── feature_normalization.pt
+├── Supplementary Files (S1: Dataset, S2: Molecular docking results, S3: Screened FDA drugs)
 └── result/
 ```
 
@@ -114,3 +114,21 @@ Molecular structure images with the top 10 important atoms highlighted using GNN
 ## Keywords
 
 `Pks13` `Tuberculosis` `Graph Neural Network` `GNN` `Drug Discovery` `Cheminformatics` `Molecular Property Prediction` `Deep Learning` `RDKit` `PyTorch Geometric` `GNNExplainer`
+
+---
+
+## Publication
+
+If you use this repository or the associated model in your research, please cite the related publication:
+
+```text
+Vineet Diwakar, Anju Sharma, Prabha Garg. Graph Neural Network–Driven Virtual Screening of FDA-Approved Drugs Targeting Pks13 in Mycobacterium tuberculosis. Journal Name. Year.
+```
+
+DOI:
+
+```text
+DOI: 
+```
+
+---
